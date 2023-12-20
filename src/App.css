@@ -1,0 +1,112 @@
+.App{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+h1{
+  color: white;
+}
+.cont{
+  background-color: rgb(56, 55, 55);
+  width: fit-content;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.inpt-cont{
+  display:flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.inp1 ,.inp2{
+  display: flex;
+  flex-direction: column;
+}
+.inp3{
+  display: flex;
+  align-items: end;
+}
+.inp3 button{
+  cursor: pointer;
+  background-color: #FFF200;
+  border: none;
+  padding: 5px;
+  width: 50px;
+  height: 28px;
+}
+.inp1 input, .inp2 input{
+  height: 20px;
+  max-width: 250px;
+}
+.inp1 label , .inp2 label{
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+.viewbtn button{
+  border: none;
+  padding: 6px;
+  font-weight: 500;
+  cursor: pointer;border-right: 1px solid black ;
+  margin-bottom: 10px;
+
+}
+.viewbtn button:hover{
+  background-color: #FFF200;
+}
+
+.Active{
+  background-color: #FFF200;
+}
+.todo-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(72, 72, 72);
+  margin-bottom: 5px;
+  flex-wrap: wrap;
+}
+.todo-list-cont{
+  background-color: rgb(72, 72, 72);
+  display: flex;  
+  flex-direction: column;
+  padding: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  /*overflow-wrap: break-word;
+  max-width: 350px;*/
+}
+.todo-list-cont h3{
+  color: #FFF200;
+  margin: 0px;
+  font-size: 22px;
+}
+.todo-list-cont p{
+  font-size: 14px;
+  margin: 0px;
+  margin-top: 6px;
+}
+.icons{
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+  font-size: 25px;
+  gap: 8px;
+  cursor: pointer;
+}
+.del-icon:hover{
+  color: rgb(255, 16, 16);
+}
+.check-icon:hover{
+  color: rgb(54, 249, 54);
+}
+.on{
+  font-size: 15px;
+  color: rgb(182, 182, 182);
+}
